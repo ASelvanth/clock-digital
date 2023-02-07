@@ -1,0 +1,65 @@
+body{
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background:url("https://img.freepik.com/free-photo/front-view-black-hourglass-dark-surface_179666-37756.jpg?w=996&t=st=1675751130~exp=1675751730~hmac=8b0e5f635d2bff680ffe37d69be6ace64a721ccd946f89b65d07f7c9ba6ab4c9");
+    background:url("https://img.freepik.com/free-vector/abstract-paper-clock_98292-4375.jpg?w=740&t=st=1675751468~exp=1675752068~hmac=908de7cfe7e5d44c2f8e52b2c615955bee618b2415befcc9fc38dcffa7ccb218");
+
+    /* background-size:contain; */
+    background-repeat: no-repeat;
+    overflow:hidden;
+
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing:6px;
+    font-size: 26px;
+    text-align: center;
+    color:rgb(17, 17, 17);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.clock{
+    display:flex;
+    align-self: center;
+}
+
+.clock div{
+    margin:5px;
+    position:relative;
+}
+
+.clock span{
+    width:100px;
+    height:80px;
+    font-family: sans-serif;
+    background-color:rgba(115, 145, 40, 0.812);
+    color:white;
+    /* opacity:0.8; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+    text-shadow: 2px 2px 4px rgba(41, 5, 247, 0.5);
+}
+
+.clock .text{
+    height:30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    background-color: rgb(139, 0, 65);
+}
+
+/* .clock #ampm{
+    bottom: 0;
+    position:absolute;
+    width:60px;
+    height:30px;
+    font-size: 20px;
+    background-color:rgb(139, 0, 65);
+} */
